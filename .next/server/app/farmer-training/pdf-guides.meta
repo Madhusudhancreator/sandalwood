@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/farmer-training/layout,_N_T_/(site)/farmer-training/pdf-guides/layout,_N_T_/(site)/farmer-training/pdf-guides/page,_N_T_/farmer-training/pdf-guides"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/farmer-training/pdf-guides/__PAGE__",
+    "/!KHNpdGUp/farmer-training/pdf-guides",
+    "/!KHNpdGUp/farmer-training",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

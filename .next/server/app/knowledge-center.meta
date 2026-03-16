@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/knowledge-center/layout,_N_T_/(site)/knowledge-center/page,_N_T_/knowledge-center"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/knowledge-center/__PAGE__",
+    "/!KHNpdGUp/knowledge-center",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

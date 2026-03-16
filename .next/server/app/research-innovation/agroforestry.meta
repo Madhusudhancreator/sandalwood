@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/research-innovation/layout,_N_T_/(site)/research-innovation/agroforestry/layout,_N_T_/(site)/research-innovation/agroforestry/page,_N_T_/research-innovation/agroforestry"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/research-innovation/agroforestry/__PAGE__",
+    "/!KHNpdGUp/research-innovation/agroforestry",
+    "/!KHNpdGUp/research-innovation",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

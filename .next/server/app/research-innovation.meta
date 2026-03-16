@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/research-innovation/layout,_N_T_/(site)/research-innovation/page,_N_T_/research-innovation"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/research-innovation/__PAGE__",
+    "/!KHNpdGUp/research-innovation",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

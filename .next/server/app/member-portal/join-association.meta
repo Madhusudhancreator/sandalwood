@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/member-portal/layout,_N_T_/(site)/member-portal/join-association/layout,_N_T_/(site)/member-portal/join-association/page,_N_T_/member-portal/join-association"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/member-portal/join-association/__PAGE__",
+    "/!KHNpdGUp/member-portal/join-association",
+    "/!KHNpdGUp/member-portal",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}
