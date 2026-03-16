@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/farming-guide/layout,_N_T_/(site)/farming-guide/nursery/layout,_N_T_/(site)/farming-guide/nursery/page,_N_T_/farming-guide/nursery"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/farming-guide/nursery/__PAGE__",
+    "/!KHNpdGUp/farming-guide/nursery",
+    "/!KHNpdGUp/farming-guide",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

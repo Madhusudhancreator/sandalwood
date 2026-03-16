@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/member-portal/layout,_N_T_/(site)/member-portal/farmer-registration/layout,_N_T_/(site)/member-portal/farmer-registration/page,_N_T_/member-portal/farmer-registration"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/member-portal/farmer-registration/__PAGE__",
+    "/!KHNpdGUp/member-portal/farmer-registration",
+    "/!KHNpdGUp/member-portal",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

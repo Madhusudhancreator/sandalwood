@@ -1,0 +1,263 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/studio/[[...tool]]",
+      "regex": "^/studio(?:/(.+?))?(?:/)?$",
+      "routeKeys": {
+        "nxtPtool": "nxtPtool"
+      },
+      "namedRegex": "^/studio(?:/(?<nxtPtool>.+?))?(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/about/members",
+      "regex": "^/about/members(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/members(?:/)?$"
+    },
+    {
+      "page": "/about/partners",
+      "regex": "^/about/partners(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/partners(?:/)?$"
+    },
+    {
+      "page": "/about/vision",
+      "regex": "^/about/vision(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about/vision(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/farmer-training",
+      "regex": "^/farmer\\-training(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farmer\\-training(?:/)?$"
+    },
+    {
+      "page": "/farmer-training/pdf-guides",
+      "regex": "^/farmer\\-training/pdf\\-guides(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farmer\\-training/pdf\\-guides(?:/)?$"
+    },
+    {
+      "page": "/farmer-training/videos",
+      "regex": "^/farmer\\-training/videos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farmer\\-training/videos(?:/)?$"
+    },
+    {
+      "page": "/farmer-training/workshops",
+      "regex": "^/farmer\\-training/workshops(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farmer\\-training/workshops(?:/)?$"
+    },
+    {
+      "page": "/farming-guide",
+      "regex": "^/farming\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farming\\-guide(?:/)?$"
+    },
+    {
+      "page": "/farming-guide/harvesting",
+      "regex": "^/farming\\-guide/harvesting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farming\\-guide/harvesting(?:/)?$"
+    },
+    {
+      "page": "/farming-guide/maintenance",
+      "regex": "^/farming\\-guide/maintenance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farming\\-guide/maintenance(?:/)?$"
+    },
+    {
+      "page": "/farming-guide/nursery",
+      "regex": "^/farming\\-guide/nursery(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farming\\-guide/nursery(?:/)?$"
+    },
+    {
+      "page": "/farming-guide/plantation",
+      "regex": "^/farming\\-guide/plantation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/farming\\-guide/plantation(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/knowledge-center",
+      "regex": "^/knowledge\\-center(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/knowledge\\-center(?:/)?$"
+    },
+    {
+      "page": "/knowledge-center/climate-soil",
+      "regex": "^/knowledge\\-center/climate\\-soil(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/knowledge\\-center/climate\\-soil(?:/)?$"
+    },
+    {
+      "page": "/knowledge-center/farming-techniques",
+      "regex": "^/knowledge\\-center/farming\\-techniques(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/knowledge\\-center/farming\\-techniques(?:/)?$"
+    },
+    {
+      "page": "/knowledge-center/tree-information",
+      "regex": "^/knowledge\\-center/tree\\-information(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/knowledge\\-center/tree\\-information(?:/)?$"
+    },
+    {
+      "page": "/legal-guidelines",
+      "regex": "^/legal\\-guidelines(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal\\-guidelines(?:/)?$"
+    },
+    {
+      "page": "/legal-guidelines/forest-department-rules",
+      "regex": "^/legal\\-guidelines/forest\\-department\\-rules(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal\\-guidelines/forest\\-department\\-rules(?:/)?$"
+    },
+    {
+      "page": "/legal-guidelines/transport-permits",
+      "regex": "^/legal\\-guidelines/transport\\-permits(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal\\-guidelines/transport\\-permits(?:/)?$"
+    },
+    {
+      "page": "/legal-guidelines/tree-registration",
+      "regex": "^/legal\\-guidelines/tree\\-registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/legal\\-guidelines/tree\\-registration(?:/)?$"
+    },
+    {
+      "page": "/market-trade",
+      "regex": "^/market\\-trade(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/market\\-trade(?:/)?$"
+    },
+    {
+      "page": "/market-trade/export-information",
+      "regex": "^/market\\-trade/export\\-information(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/market\\-trade/export\\-information(?:/)?$"
+    },
+    {
+      "page": "/market-trade/timber-prices",
+      "regex": "^/market\\-trade/timber\\-prices(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/market\\-trade/timber\\-prices(?:/)?$"
+    },
+    {
+      "page": "/member-portal",
+      "regex": "^/member\\-portal(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/member\\-portal(?:/)?$"
+    },
+    {
+      "page": "/member-portal/farmer-registration",
+      "regex": "^/member\\-portal/farmer\\-registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/member\\-portal/farmer\\-registration(?:/)?$"
+    },
+    {
+      "page": "/member-portal/join-association",
+      "regex": "^/member\\-portal/join\\-association(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/member\\-portal/join\\-association(?:/)?$"
+    },
+    {
+      "page": "/research-innovation",
+      "regex": "^/research\\-innovation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research\\-innovation(?:/)?$"
+    },
+    {
+      "page": "/research-innovation/agroforestry",
+      "regex": "^/research\\-innovation/agroforestry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research\\-innovation/agroforestry(?:/)?$"
+    },
+    {
+      "page": "/research-innovation/seed-varieties",
+      "regex": "^/research\\-innovation/seed\\-varieties(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/research\\-innovation/seed\\-varieties(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

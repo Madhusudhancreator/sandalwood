@@ -1,0 +1,13 @@
+{
+  "/(site)/about/page": "app/(site)/about/page.js",
+  "/(site)/about/vision/page": "app/(site)/about/vision/page.js",
+  "/(site)/farmer-training/page": "app/(site)/farmer-training/page.js",
+  "/(site)/farmer-training/videos/page": "app/(site)/farmer-training/videos/page.js",
+  "/(site)/farming-guide/plantation/page": "app/(site)/farming-guide/plantation/page.js",
+  "/(site)/knowledge-center/farming-techniques/page": "app/(site)/knowledge-center/farming-techniques/page.js",
+  "/(site)/knowledge-center/page": "app/(site)/knowledge-center/page.js",
+  "/(site)/knowledge-center/tree-information/page": "app/(site)/knowledge-center/tree-information/page.js",
+  "/(site)/page": "app/(site)/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
+}

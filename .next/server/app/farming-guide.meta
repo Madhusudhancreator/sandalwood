@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/farming-guide/layout,_N_T_/(site)/farming-guide/page,_N_T_/farming-guide"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/farming-guide/__PAGE__",
+    "/!KHNpdGUp/farming-guide",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}

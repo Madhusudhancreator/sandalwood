@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(site)/layout,_N_T_/(site)/farming-guide/layout,_N_T_/(site)/farming-guide/plantation/layout,_N_T_/(site)/farming-guide/plantation/page,_N_T_/farming-guide/plantation"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/!KHNpdGUp/farming-guide/plantation/__PAGE__",
+    "/!KHNpdGUp/farming-guide/plantation",
+    "/!KHNpdGUp/farming-guide",
+    "/!KHNpdGUp",
+    "/_index",
+    "/_head"
+  ]
+}
